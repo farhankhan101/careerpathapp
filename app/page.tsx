@@ -408,7 +408,7 @@ Use HTML formatting: <strong>, <ul>, <li>, <p>, <em>. No markdown.`
             </div>
 
             {/* Messages */}
-            <div className="flex-1 overflow-y-auto p-6 space-y-6 h-[500px] max-h-[500px] overflow-auto border">
+            <div className="flex-1 overflow-y-auto p-6 space-y-6 lg:h-[300px] lg:max-h-[300px] lg:overflow-auto border">
               {currentSession?.messages.map((message) => (
                 <div
                   key={message.id}
